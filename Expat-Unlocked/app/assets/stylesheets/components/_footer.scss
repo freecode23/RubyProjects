@@ -1,0 +1,24 @@
+@import "base";
+.footer {
+  background: $nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: $primary;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: $primary;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 36px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}

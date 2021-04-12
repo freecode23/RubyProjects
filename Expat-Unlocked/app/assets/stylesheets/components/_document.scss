@@ -1,0 +1,106 @@
+.document {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: $box-shadow;
+  margin: 0 5px 40px 0;
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  &:hover {
+    box-shadow: 0 4px 4px rgba(63, 63, 63, 0.3);
+    transform: translateY(4px);
+  }
+  & img {
+    width: 100%;
+    max-height: 200px;
+  }
+  &__header {
+    flex: 0 0 100%;
+    text-align: center;
+    background: $secondary;
+    color: #fff;
+  }
+  &__title {
+    font-size: 30px;
+    font-family: $body-font;
+    color: $primary;
+  }
+
+  &__body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  &__data h5 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  &__data p {
+    color: $primary;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.tag {
+  background: $primary;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.paid {
+  background: $primary;
+  & i {
+    color: greenyellow;
+  }
+}
+
+.unpaid {
+  background: $secondary;
+  & i {
+    color: red;
+  }
+}
+
+.delete-user-document {
+  position: absolute;
+  top: -23px;
+  right: -23px;
+  background: rgb(221, 34, 34);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: $box-shadow;
+  visibility: hidden;
+  z-index: 100;
+  &:hover {
+    color: white;
+  }
+}
+
+.document:hover .delete-user-document {
+  visibility: visible;
+}
+
+.height-change {
+  max-height: 100% !important;
+}
+
+.show-page {
+  padding-top: 20px;
+  margin-top: 10px;
+}

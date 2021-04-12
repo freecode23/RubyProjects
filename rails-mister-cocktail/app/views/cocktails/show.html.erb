@@ -1,0 +1,14 @@
+<%= button_to "Home", root_path, class: "btn btn-danger", method: "get" %>
+<h1><%= @cocktail.name %></h1>
+<!-- no need @cocktail.photo.url because its not rail helper tag -->
+<%= cl_image_tag @cocktail.photo, width: 400, height: 300, crop: :fill %>
+<div>
+<% @cocktail.doses.each do |dose| %>
+  <p><%= dose.description %></p>
+  <p><%= dose.ingredient.name %></p>
+  <%= link_to "delete dose", dose_path(dose), method: "delete" %>
+<% end %>
+
+</div>
+<%= link_to "add a dose", new_cocktail_dose_path(@cocktail), class: "btn btn-primary" %>
+

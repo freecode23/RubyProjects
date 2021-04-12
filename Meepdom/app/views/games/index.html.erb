@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="margin-top-bottom">
+    <%= form_tag games_path, method: :get do %>
+    <%= text_field_tag :query,
+    params[:query],
+    class: "input index-page",
+      placeholder: "Find a board game"
+      %>
+
+      <%= submit_tag 'Search', class: "button is-small index-search" %>
+      <% end %>
+    <div class="columns">
+      <% @games.each do |game| %>
+      <div class="column center-content">
+        <div class="card">
+          <img src=<%= game.image_url %> class="card-img" alt="Board game" />
+          <%= link_to game_path(game), class: "card-body center-content" do %>
+          <h4><%= game.name %></h4>
+          <h5>Category:</h5><p><%= game.category %></p>
+          <h5>Play time:</h5><p><%= game.playingtime %> minutes</p>
+          <% end %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="call-to-action">
+  <button class="button">See more</button>
+</div>

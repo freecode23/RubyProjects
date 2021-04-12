@@ -1,0 +1,119 @@
+<% content_for :meta_title, "siji bills - No language barrier" %>
+<% content_for :meta_description, "Take the guesswork out of Japanese bills." %>
+<% content_for :meta_image, "meta_image_shrine.jpg" %>
+
+<% content_for(:navbar_class, "navbar-home")%>
+<div class="banner">
+  <div class="banner__header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 is-paddingless">
+          <h1 class="banner__heading" style="margin-top: -20px;" >
+           siji
+          </h1>
+          <div class="card">
+            <div class="result">
+              <ul style="list-style: none;">
+                <li><p class="card__title"><strong>Water bill</strong></p></li>
+                <li>
+                  <p><strong>¥ 16,026 </strong></p>
+                </li>
+                <li>
+                  <p>Due: <strong>May 18</strong></p>
+                </li>
+              </ul>
+            </div>
+            <div class="result-photo">
+              <%= image_tag 'pic_water.png' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 banner__text">
+          <p class="banner__description">
+            Take the guesswork out of Japanese bills
+          </p>
+        </div>
+        <div>
+          <%= link_to 'Try now', scan_info_path, class: 'try-now' %>
+          </div>
+          <div class="down-arrow">
+            <i class="material-icons">
+              keyboard_arrow_down
+            </i>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row padding-top-bottom">
+    <div class="col-xs-12 center-content">
+      <h1>
+        What we offer...
+      </h1>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <h2 class="center-content">Recognition</h2>
+      <div class="card">
+        <%= link_to scan_info_path do %>
+        <div class="card-body scan">
+          <div class="card-icon">
+            <i class="material-icons">
+              linked_camera
+            </i>
+          </div>
+        </div>
+        <% end %>
+        <div class="card-footer">
+          <p>
+            Simply take a photo, or upload one of your Japanese
+            bill and we'll get the most relevant information for you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h2 class="center-content">Records</h2>
+      <div class="card">
+        <%= link_to profile_path(current_user) do %>
+        <div class="card-body record">
+          <div class="card-icon">
+          <i class="material-icons">
+            insert_chart
+          </i>
+        </div>
+        </div>
+        <% end %>
+        <div class="card-footer">
+          <p>
+            Have statistics on your past payments readily available at the click of a button. Know how much you spend each month.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h2 class="center-content">Reminders</h2>
+      <div class="card">
+        <%= link_to user_documents_path(current_user) do %>
+        <div class="card-body track">
+          <div class="card-icon">
+          <i class="material-icons">
+            email
+          </i>
+          </div>
+        </div>
+        <% end %>
+        <div class="card-footer">
+          <p>
+            Keep up to date with when your next bill is due with our tracking
+            and notification system.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

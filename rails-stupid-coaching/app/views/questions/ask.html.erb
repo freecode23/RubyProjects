@@ -1,0 +1,22 @@
+<h1>Questions#ask</h1>
+
+<form action="/answer">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form>
+
+
+<!-- notes 1
+action= mean your url will go to: localhost:3000/answer
+name= will make the path: localhost:3000/answer?question="whatever input" 
+http://localhost:3000/answer?question=watch+out -->
+
+<!-- notes 2
+Before Submit
+<ActionController::Parameters
+{"controller"=>"questions", "action"=>"ask"} permitted: false> -->
+
+<!-- After Submit
+<ActionController::Parameters
+{"question"=>"watch out", "controller"=>"questions", "action"=>"answer"} permitted: false -->
+<%= console %>

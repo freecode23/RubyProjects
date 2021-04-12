@@ -1,0 +1,16 @@
+
+
+function addReview(reviewHTML) {
+  const reviews = document.querySelector('.user-games-list');
+  console.log(reviews)
+  reviews.insertAdjacentHTML('afterbegin', reviewHTML);
+}
+
+
+
+<% if @user_game.errors.any? %>
+  refreshForm('<%= j render "shared/index", user_game: @user_game, user: @user %>');
+<% else %>
+  addReview('<%= j render partial: "shared/index", locals: { user_game: @user_game.reload, user: @user } %>');
+
+<% end %>

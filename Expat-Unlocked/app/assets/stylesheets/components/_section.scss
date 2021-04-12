@@ -1,0 +1,28 @@
+.colored {
+  background-color: rgba(105, 39, 255, 0.7);
+}
+
+.site-intro {
+  display:block;
+}
+
+.site-feature {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#canvas {
+  width: 100%;
+  display: none;
+}
+
+#video {
+  width: 100%;
+}
+
+#photo {
+  width: 100%;
+}

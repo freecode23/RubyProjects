@@ -1,0 +1,7 @@
+<% if user_document.state %>
+  <p class="tag">Paid</p>
+  <%= link_to "Wait, I haven't paid this...", unpaid_user_document_path(user_document), method: :patch, remote: true, id: "#{user_document.id}-unpaid-document"  %>
+<% else %>
+  <p class="tag">Not Paid</p>
+  <%= link_to "Mark as Paid", pay_user_document_path(user_document), method: :patch, remote: true, id: "#{user_document.id}-paid-document"  %>
+<% end %>

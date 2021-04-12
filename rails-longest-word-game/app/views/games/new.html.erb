@@ -1,0 +1,19 @@
+<h1>Games#new</h1>
+<div class='grid'>
+  <% @letters.each do |letter| %>
+    <p><%= letter %></p>
+  <% end %>
+</div>
+
+<form action="/score" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= hidden_field_tag :letters, @letters %>
+
+  <!-- taking gets.chomp when you do input. name is params[:question] -->
+  <!-- it makes localhost:3000/answer?question= "whatever input" -->
+  <input class='gu' type="text" name="guess">
+  <input class='btn' type="submit" value="Play">
+</form>
+
+<!-- Header: POST /score
+Body: guess=words_you_typed -->

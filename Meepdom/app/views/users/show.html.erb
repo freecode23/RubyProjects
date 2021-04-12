@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="row margin-top-bottom">
+    <div class="col-md-5 sticky">
+      <div class="row">
+        <div class="user-rating>
+
+          <p class="user-card__rating">
+            <h4>User rating: </h4>
+            <%= image_tag 'meeple-green.png', class: "meeple" %>
+            <%= image_tag 'meeple-green.png', class: "meeple" %>
+            <%= image_tag 'meeple-green.png', class: "meeple" %>
+            <%= image_tag 'meeple-green.png', class: "meeple" %>
+            <%= image_tag 'meeple-white.png', class: "meeple" %>
+          </p>
+        </div>
+        <div class="game-info-card">
+          <% if @user.photo.blank? %>
+          <%= image_tag "avatar.png", class:"show-image" %>
+          <% else %>
+          <%= cl_image_tag @user.photo, class:"show-image" %>
+          <% end %>
+          <div class="game-info-card__description">
+            <div>
+              <h2>
+                Username:
+              </h2>
+              <%= @user.username %>
+            </div>
+            <div>
+              <h2 class="game-card-title">
+                Address:
+              </h2>
+              <%= @user.address %>
+            </div>
+          </div>
+          <div class="game-info-card__description">
+            <h2 class="game-card-title">
+              <% if current_user == @user %>
+                <%= link_to "edit profile", edit_user_registration_path %>
+              <% end %>
+            </h2>
+            <h2 class="game-card-title">
+              <% if current_user == @user %>
+                <%= link_to "Sell a game", user_user_games_path(@user) %>
+              <% end %>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h2>Purchased games</h2>
+<div class="columns">
+  <% current_user.purchases.each do |purchase| %>
+  <div class="column center-content">
+    <div class="card">
+      <img src=<%= purchase.user_game.game.thumb_url %> class="card-img" alt="Board game" />
+      <% game = purchase.user_game.game %>
+      <%= link_to game_path(game), class: "card-body center-content" do %>
+      <h4><%= purchase.user_game.game.name %></h4>
+      <p>Bought from <%= purchase.user_game.user.username %></p>
+      <% end %>
+    </div>
+  </div>
+  <% end %>
+</div>
+

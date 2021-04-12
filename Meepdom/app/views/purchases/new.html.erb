@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h2> NEW PURCHASES </h2>
+        <h2>Shipping to <%= current_user.address %></h2>
+        <p>You are buying <%= @user_game.game.name %> at $<%= @user_game.sale_price %></p>
+        <%= simple_form_for([@user_game, @purchase]) do |f| %>
+          <p>Please choose how you want to pay</p>
+          <%= f.select(:payment_method, Purchase::PAYMETHODS) %>
+          <p>How fast do you want it shipped ?</p>
+          <%= f.select(:delivery_type, Purchase::DELIVERTYPES) %>
+          <%= f.submit "Confirm Purchase", class: "btn btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+

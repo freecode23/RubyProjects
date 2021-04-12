@@ -1,0 +1,53 @@
+.input {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: inherit;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.index-page {
+  width: 500px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: inherit;
+  border: 1px solid rgb(211, 211, 211);
+  margin-left: 8px;
+}
+
+.sell-game-form {
+  visibility: hidden;
+  transform: scale(0);
+  animation: scaleDown 0.5s forwards;
+}
+
+.scale-up {
+  animation: scaleUp 0.5s forwards;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes scaleUp {
+  0% {
+    display: block;
+    visibility: hidden;
+    transform: scale(0);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+  }
+  100% {
+    display: block;
+    transform: scale(0);
+  }
+}

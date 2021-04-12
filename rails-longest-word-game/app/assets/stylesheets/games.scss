@@ -1,0 +1,23 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #90c9f4;
+}
+
+.gu {
+  width: 400px;
+  height: 20px;
+}
+
+.btn{
+  width: 100px;
+  height: 200px;
+}

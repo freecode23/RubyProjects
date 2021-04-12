@@ -1,0 +1,78 @@
+<%= render partial: "shared/breadcrumb", locals: { text: "See Other sellers",
+back_path: game_path(@user_game.game)} %>
+<div class="container ">
+  <div class="row margin-top-bottom">
+    <div class="col-md-5">
+      <div class="game-info-card">
+        <%= cl_image_tag @user_game.photo, class: "show-image", crop: :fit %>
+        <div class="game-info-card__description">
+          <div class="flex-full">
+            <h2>
+              Seller Description
+            </h2>
+            <%= @user_game.description %>
+          </div>
+          <div>
+            <h2>
+              Name
+            </h2>
+            <%= @user_game.game.name %>
+          </div>
+          <div>
+            <h2 class="game-card-title">
+              Condition
+            </h2>
+            <div class="game-condition">
+              <p><%= @user_game.condition.capitalize %></p>
+            </div>
+          </div>
+        </div>
+
+         <% if @user_game.purchase.nil? && @user_game.user != current_user %>
+          <%= link_to "Buy game", new_user_game_purchase_path(@user_game), class: "button is-fullwidth", method: "get"%>
+         <% end %>
+
+        <div class="game-designer">
+          <% unless @user_game.user.photo.url.nil? %>
+            <%= cl_image_tag @user_game.user.photo, class: "avatar", crop: :fit %>
+          <% else %>
+            <%= image_tag 'avatar.png', class: "avatar" %>
+          <% end %>
+            <%= link_to user_user_games_path(@user_game.user) do %>
+            Seller: <%= @user_game.user.username %>
+          <% end %>
+        </div>
+        <div class="game-price center-content">
+          <p>$<%= @user_game.sale_price %></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="header">
+        <h2 class="title">
+          <%= @user_game.user.username.capitalize %> is selling <%=
+          @user_game.user.user_games.count %> <%=
+          @user_game.user.user_games.count > 1 ? "games" : "game" %>
+        </h2>
+      </div>
+      <% if @user_game.user == current_user %>
+        <%= button_to "Sell Another Game", new_user_game_path, class: "button is-fullwidth", method: :get %>
+      <% end %>
+
+      <% @user_game.user.user_games.each do |user_game| %>
+      <div class="user-card">
+        <%= link_to "", user_game_path(user_game), class: "user-card__link" %>
+        <%= cl_image_tag user_game.photo, class: "user-card__photo", crop: :fit
+        %>
+        <div class="user-card__info">
+          <h4 class="user-card__title"><%= user_game.game.name %></h4>
+          <p class=""><%= user_game.game.category %></p>
+        </div>
+        <div class="user-card__price">
+          <p>$<%= user_game.sale_price %></p>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

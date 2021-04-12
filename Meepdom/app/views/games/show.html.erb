@@ -1,0 +1,79 @@
+<%= render partial: "shared/breadcrumb", locals: { text: "Back to All Games", back_path: games_path} %>
+<div class="container ">
+  <div class="row margin-top-bottom">
+    <div class="col-md-5 sticky">
+      <div class="row">
+        <div class="game-info-card">
+          <img class="show-image" src=<%= @game.image_url %> alt="game">
+          <div class="game-info-card__description">
+            <div>
+              <h2>
+                Name
+              </h2>
+              <%= @game.name %>
+            </div>
+            <div>
+              <h2 class="game-card-title">
+                Playing Time
+              </h2>
+              <%= @game.playingtime %> minutes
+            </div>
+            <div>
+              <h2 class="game-card-title">
+                Category
+              </h2>
+              <button class="tag"><%= @game.category %></button>
+            </div>
+            <div>
+              <h2 class="game-card-title">
+                Mechanic
+              </h2>
+              <button class="tag"><%= @game.mechanic %></button>
+            </div>
+          </div>
+          <div class="game-designer">
+            <%= image_tag 'avatar.png', class: "avatar" %>
+            <p>Created by <%= @game.designer %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-7 user-cards">
+      <div class="header">
+        <h2 class="title">
+          Being Sold By <%= @user_games.count %> <%= @user_games.count > 1 ?
+          "Meeps" : "Meep" %>
+        </h2>
+      </div>
+      <div class="row">
+        <% @game.user_games.each do |user_game| %>
+        <div class="user-card">
+          <% if user_game.purchase.present? == false %>
+            <%= link_to "", user_game_path(user_game), class: "user-card__link" %>
+            <% if user_game.user.photo.url.nil? %>
+            <%= image_tag 'avatar.png', class: "avatar" %>
+            <% else %>
+            <%= cl_image_tag user_game.user.photo, class: "user-card__photo avatar", crop: :fit %>
+            <% end %>
+            <div class="user-card__info">
+              <h4 class="user-card__title"><%= user_game.user.username %></h4>
+              <p class="user-card__rating">
+                <%= image_tag 'meeple-green.png', class: "meeple" %>
+                <%= image_tag 'meeple-green.png', class: "meeple" %>
+                <%= image_tag 'meeple-green.png', class: "meeple" %>
+                <%= image_tag 'meeple-green.png', class: "meeple" %>
+                <%= image_tag 'meeple-white.png', class: "meeple" %>
+              </p>
+            </div>
+            <div class="user-card__price">
+              <p>$<%= user_game.sale_price %></p>
+            </div>
+            <%= button_to "View", user_game_path(user_game), class: "button", method: "get" %>
+          <% end %>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

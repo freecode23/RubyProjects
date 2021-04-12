@@ -1,0 +1,30 @@
+<% unless user_document.state %>
+<div class="upcoming-card__data">
+  <div class="upcoming-card__title">
+      <% unless user_document.document.nil? %>
+        <%= link_to user_document.document.company_name,
+        user_document_path(user_document), class: "upcoming-card__link", method:
+        :get %>
+      <% end %>
+  </div>
+  <div class="upcoming-card__content">
+    <div class="upcoming-card__label">
+      Due on
+    </div>
+    <div class="upcoming-card__info">
+      <%= user_document.due_date.strftime("%b %d %Y") unless user_document.due_date.nil? %>
+    </div>
+  </div>
+  <div class="upcoming-card__content">
+    <div class="upcoming-card__label">
+      Amount due
+    </div>
+    <div class="upcoming-card__info">
+      ¥<%= number_with_delimiter(user_document.current_due_amount) %>
+    </div>
+  </div>
+  <%= button_to "Mark As Paid", pay_user_document_path(user_document), method:
+  :patch, class: "button is-small z-index", remote: true, id:
+  "#{user_document.id}-paid-document" %>
+</div>
+<% end %>

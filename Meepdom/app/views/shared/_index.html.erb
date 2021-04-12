@@ -1,0 +1,25 @@
+<div class="column flex-half">
+
+
+<div class="game-card">
+  <%= link_to "", user_game_path(user_game), class: "game-card__link" %> 
+  <%= cl_image_tag user_game.photo, class: "game-card__photo" %>
+  <div class="game-card__body">  
+    <h3><%= user_game.game.name %></h3>
+    <p>$ <%= user_game.sale_price %></p>
+    <% p user_game.photo %>
+  </div>
+  <% if current_user != @user %>
+  <button id="buy-game" class="button is-fullwidth">Buy</button>
+  <% end %>
+  <div class="game-card__seller-auth">
+    <% if current_user == @user %> <%= link_to edit_user_game_path(user_game),
+    method: "get", class: "btn btn-success" do %>
+    <i class="far fa-edit"></i>
+    <% end %> <%= link_to user_game_path(user_game), method: :delete, class:
+    "btn btn-danger" do %>
+    <i class="fas fa-trash"></i>
+    <% end %> <% end %>
+  </div>
+</div>
+</div>

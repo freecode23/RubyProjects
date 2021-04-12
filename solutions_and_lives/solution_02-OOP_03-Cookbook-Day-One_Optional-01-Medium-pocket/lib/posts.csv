@@ -1,0 +1,433 @@
+le-wagon/whats-your-goal-for-learning-to-code-8231e239ede,What’s your goal for learning to code?,"This very scholar approach is terribly frustrating when it comes to programming or hands-on skills. Here is what happens when you start applying it:
+
+Seven years later, I am running Le Wagon, one of the most recognised coding bootcamps in the world, present in 27 cities, with an amazing community of 2000+ alumni. So it begs the question.
+
+At some point, my friend Mathieu, one of the initial co-founders of Le Wagon, asked me to code with him on side-projects. This guy was always learning stuff with a very clear objective in mind. At that time, Mathieu was for instance trying to collect data from mobile text messages to build interesting visualisations (working on TxTo).
+
+So I gathered a bit of my scattered programming knowledge and started working on side projects with Mathieu. From then on, I learned much more and much faster. Most importantly my learning goals switched! And I realised one thing. You don’t learn to code to play with the latest technology, grasp difficult concepts rewarding for your ego, or learn weird syntax and shine at cocktail parties.
+
+Obviously many developers like Le Wagon’s CTO Sebastien have been driven by this philosophy since their childhood. But for me as a coding beginner without a real goal or passion, that was an incredible discovery. Since this day, I’ve decided to focus on teaching programming the best way I can to make people build useful products and solve problems. That’s where Le Wagon comes from.
+
+Nowadays, when I read all these posts about “Which programming language is the best?”, “Which technology you must start learning?” or “Which tech program will get you a 6-digit salary?”, I just feel this is introducing hype, FOMO, rewards, and wrong incentives for coding beginners.
+
+So here are some insights I wish I had when I started learning to code. Maybe that would have accelerated the switch of my ”learning goals”.
+
+Programming, data-science, web-development, UX design, product management, growth marketing, AI, machine-learning...
+
+Python, ruby, PHP, JavaScript, C++, Rails, node.js, HTML, CSS, React.js, d3.js, etc…
+
+edX, Coursera, Freecodecamp, Codecademy, Treehouse, Udemy, Lynda, Udacity, not to mention hundreds of coding bootcamps worldwide
+
+A lifetime is not enough to learn all this. So it’s just normal if you feel lost (even anxious 😱😱😱) and ask yourself questions like:
+
+Well, maybe you’re just like me when I started to learn programming. You haven’t set the right goals for yourself. You’re distracted by hype, FOMO, rewards. So take a step back. Forget “what’s best”. Forget “what’s hype”.
+
+Whether you go the data, the product, or the engineer way, there is no shortcut.
+
+For instance, if you focus on web-development, learn to build a robust web application applying good coding practices, whatever the underlying language you choose (ruby, python, javascript, etc…). Learn this honestly before you decide if you want to build a 10 million user real-time mobile game or become a React.js expert because a friend told you it’s swag 😎.
+
+For instance, let me describe the way we articulate the first weeks of our coding bootcamp at Le Wagon:
+
+For us, this is the only honest approach in teaching programming and web-development. We could start by making students code small HTML/CSS websites that they could show to their friends when they come back home. Of course, this might be a more immediate reward for them.
+
+Well, we are not at school anymore. Students are not here to get immediate rewards but to learn to build things. Even if they find this approach hard and sometimes frustrating, eventually they’ll realise this and thank us at the end of the bootcamp for teaching them core concepts in a structured way.
+
+And after developing their final project, they know they can build products with solid foundations, from which they will keep learning.
+
+That’s the only reward that really matters at the end.",Boris Paillard,true
+le-wagon/teaching-programming-is-hard-f4ad74e702d0,Teaching Programming is Hard,"The traditional education system hasn’t found the recipe yet to teach technology properly. In fact, what universities offer to students strongly differs from what the industry is looking for, especially in high moving fields like web development.
+
+While traditional schools struggle to re-invent themselves on these new topics, the tech education market is booming. Hundreds of tutorials and resources are posted on edX, Coursera, Codecademy, Treehouse, Udemy, Lynda, etc… Udacity is partnering with big companies like Google and Facebook to build joint “nano-degrees”. Actors like General Assembly are raising millions to become global players of the on-site tech education. The coding bootcamp market is exploding and getting crowded. In the US and Canada alone, the number of coding bootcamps has grown from 67 to 91 from 2015 to 2016 (+35% in 1 year).
+
+When a market is quickly expanding like this, it’s generally hard to separate the wheat from the chaff. Especially with sensationalized marketing campaigns and over-promising messages like “learn to build an iOS application in one week”. Lots of actors pretend to deliver the same value and to offer a 99% job placement rate, which (of course) is not true. Obama states every kid should learn to code while media like TechCrunch sometimes take the opposite position to balance the debate.
+
+In my opinion, this all comes down to a single question:
+
+It turns out learning technical subjects is just like learning anything else: great teachers make all the difference. Does this surprise you? (It shouldn’t). Take the course on machine learning by Andrew Ng that launched Coursera back in 2012. To this day, data-scientists recommend the course as the best introduction to machine-learning out there. I am sure that behind the scenes, a lot of time and effort went into the design and execution of this course. Still, it’s the work of one teacher (or a few at least). Education is very scalable since one single teacher can have an impact on millions of students. But scaling does not necessarily requires money or big tech disruption, it requires talent, time and passion.
+
+Maybe one day, neuroscience will be so advanced that you’ll be able to learn something new in a few minutes. Right now, this is only science-fiction. The educational process today is formed of experiences that are broadly defined by the curriculum, which means the journey you experience as a student to learn new concepts and skills. This journey is about examples, structure, challenges, rhythm, entertainment, not just content.
+
+I had a terrible experience as a student when I first learned programming at school. Let me describe to you the typical C++ (programming language) course I had during my studies:
+
+During this course, we never saw a teacher open his text editor and actually code something. We never discussed how you build softwares with code. We never used APIs or scrape information from websites to play with real-life data. For me, code was just boring concepts without real purpose. None of us really cared.
+
+When I started coding tech products with my friend Mathieu (one of the initial co-founders of Le Wagon) I just realised how fascinating code is:
+
+I had found my new passion. I discovered a thrilling, engaging world that actually required my whole brain, one that required a diverse set of skills that didn’t at all resemble my C++ class. So, it begs the question:
+
+The answer is simple. A great student’s experience requires lots of iterations. Traditional schools don’t have the right setup for that.
+
+Ask any conscientious teacher to give an opinion on a course he designed five years ago. Well, he will always tell you it needs a serious refresh. And it’s not by putting this course online on Coursera or edX that it becomes great all of a sudden. So why do traditional schools struggle to iterate on their curriculum when it’s their core product?
+
+At Le Wagon, and in other coding bootcamps, we have a different setup to iterate on our curriculum:
+
+Since the beginning, we made major iterations on our curriculum and platforms more than 15 times (4 times every year). We tested and implemented lots of new ideas:
+
+We tested tons of new features in the curriculum but we also iterated a lot on the content itself of our lectures and exercises. More than 2,105 times during the last 3 years to be precise 😱😱😱. You can see that on the Github repository hosting all our exercises.
+
+Also, because our students pay for their education, our only key metric is our NPS per session (if you don’t know what NPS is about, you can read this article). Here are Le Wagon’s NPS for all the Paris batches of 2016–2017.
+
+Having a NPS above 70 is our only priority. We don’t want our students to be satisfied about our program, we want them to go through a life-changing learning experience. That’s what a curriculum should be about, experience.
+
+I come from a great engineering school in France and I’m proud of it. Even if they did a really poor job in teaching me how to program, I still think the school was great on many other topics and taught me how to learn. However, there is still one thing I don’t get:
+
+There are so many inspiring alumni from my school’s network. Hundreds of engineers who have invented innovative services and products, hundreds of entrepreneurs who have amazing stories to tell. So why the only “inspirational” talks I had as a student were given my non-inspirational bankers and consultants?
+
+If you look at Le Wagon’s Youtube channel, you’ll see that we organised more than 100 talks world-wide with first-class entrepreneurs and CTOs (from Github, Criteo, Devialet, Trainline, Doctolib, etc…). These talks are nearly as important as the rest of the curriculum. For us, inspiration is part of the education we provide to our students.
+
+Very few people really know what they want to do. For most of us, we need to be inspired and hear stories to “discover our calling”.
+
+Not only you need inspiration as an “adult student” but I’m also convinced that vocation comes out of expertise. To know if you really like something, you have to become an expert (or at least a junior expert 😊) in that specific discipline.
+
+When I was at school, I was not a big fan of chemistry for instance. But who knows, maybe it would have become a true passion if I had gone through a 2-month intensive chemistry bootcamp with great teachers. When you reach expertise, you become autonomous and you start being creative. It’s only at this point when you can decide whether or not you really like something.
+
+For most of us, it’s easy to know what we don’t like, but what’s harder is to articulate what we do like. For that, we need both inspiration and expertise. That’s why the “bootcamp” education model is so interesting and applies so well to concrete skills like web-development. Because it immerses yourself in one discipline for months until you reach the expertise necessary to decide whether or not you want to continue doing that.
+
+Behind every great curriculum is a great teacher. And, don’t expect to nail it the first time, instead create systems that foster feedback and iterations for continuous improvement:
+
+Thanks for reading. I’d love to hear your thoughts and opinions in the comments section, whether your are a teacher, a student, a bootcamp alumni, or just passionate about education like we are at Le Wagon.",Boris Paillard,true
+le-wagon/this-is-what-a-developer-looks-like-379c261db24d,This is what a developer looks like,"Lola likes reading and wearing dad hats. But above all, Lola loves coding. She loves it so much that she has made it her passion, and ultimately, her job.
+
+Lola studied translation, linguistics and literature at university. She then worked as a freelance translator for a while, and ended up working in marketing, which she didn’t really enjoy. One day, she decided to learn to code. As two of her friends had done Le Wagon and loved it, she quit her job and joined the next Paris batch.
+
+Her studying at Le Wagon was just the beginning of her coding journey. As she had almost finished the bootcamp, one of her teachers asked her if she would like to become a Teaching Assistant. She immediately said yes.
+
+I have been working in the tech space for 4 years, so I’m used to seeing few women around, especially in technical teams. When I joined Le Wagon a few weeks ago, I immediately noticed amazing and passionate women developers around me. Not being a developer myself (though I have already considered it), I asked them how they felt about coding, and why they thought so few women were interested in it.
+
+So I asked Lola what she loved about coding. Her answer is compelling 😍
+
+Beautiful, isn’t it? And besides being beautiful, it makes the perfect intro to a very important point.
+
+It may well be that you related to what Lola depicted above. You may have told yourself “wow, this seems fantastic, this stuff was made for me. I need to start coding right away”. And maybe you didn’t. What I’m certain about is that it has nothing to do with your being a 👨‍🎓 or a 👩‍🎓.
+
+To make sure that I got it right, I asked other girls what they loved about coding. Girls working at Le Wagon: developers, teachers, teaching assistants.
+
+This is what Sandrine, developer and teacher at Le Wagon, told me.
+
+“I love coding for a ton of different reasons: I love the fact that I can work on a problem and see immediate results — positive or negative. It requires you to dive deep into a problem, there is no room for bullshit or half-assed solutions.
+
+The challenge is also what Cecile, part-time Le Wagon teacher, part-time freelance developer, enjoys in her job: “being a developer means being constantly challenged, every day”. There is something else that she is fond of: bringing to life projects that she cares about.
+
+“What I love about web development is that you can bring your expertise to every sector that you like. I used to work for an e-commerce fashion website, then for an auction platform, now I work with Fizzer, an awesome app created by two Le Wagon alumni. I can help bring to life all the projects I believe in.”
+
+Intellectual challenge ✅ Constant learning ✅ Daily victories ✅ Are these especially male or female stuff?
+
+Karine used to be a designer. She did Le Wagon, and now, she is a full-time developer, teacher and co-founder of web agency Poulpe.
+
+Freedom ✅ Creativity ✅ Empowerment ✅ Again, especially male or female stuff?
+
+At Le Wagon, bringing more women to code is a real challenge. Slowly but surely, we’re getting there, some cities being more successful than others in that matter 😬
+
+Coding should appeal to girls and boys equally, right? But the reality is quite different.
+
+Of course, these figures are biased: percentages vary from batch to batch. For instance, Barcelona has had 27% female students since it launched, and this latest batch is not representative of the city’s diversity efforts. But on the whole, among the latest Le Wagon batches across the world — and throughout Le Wagon’s history — women have represented 25% of the students on average. We could be satisfied by this figure. After all, it is still higher than the average percentage of women in many companies’ tech teams.
+
+We receive more and more applications from women, but there are still too few of them. We feel sorry that so few women feel like coding is for them. We feel sorry that so few women have the opportunity to use this very empowering and fulfilling tool that is web development 💥
+
+If coding is a matter of “hard work, drive, self-confidence and a hunger for learning” (I took that from Sandrine), then why is the field lacking women? And why do we associate the word “developer” to a grumpy guy instead of a smiling girl? 💃
+
+For Alice, developer and teacher at Le Wagon Berlin, many women don’t even think that coding could be a choice for them. It seems that the good old developer image is deeply rooted in our collective unconscious.
+
+But hey! Alice also thinks that this pattern is quickly evolving, and that it is partly due to the nature of the profession: “On the technological side, we constantly need to evolve, so on the social side that happens as well. Change can be very, very fast.”
+
+💪💪💪
+
+So, close your eyes and tell me: what does a developer look like now?",Rebecca Menat,false
+@heidihoward123/adapting-to-change-fb9b0ddd551d,Adapting to Change,"Due to once again being in a crisis state of needing a major change in my life, I first started this website last March. I had no idea why I was starting it but had always wanted to try to write since I was a little girl. Since I didn’t spend enough time on the site last year, it didn’t become very successful. However, I am now feeling the wave of persistence and change so this will be the first post for my 2019 revamped website. I sure hope it inspires many others of you to follow through with your most needed change.
+
+Since we are starting another new year and it seems that most of us, including myself, get inspired once again to make some type of change in our lives, I thought this would be a great topic to share an article about. It is almost as if we often need a starting point for motivation to do anything in life so there is no better time than the start of a new year.
+
+Whether you are one of those who likes to always live in your comfort zone or one who is constantly searching and thriving on variety, life will throw change your way whether you want it to or not and whether you are ready or not. Change can be good or bad, depending on how you decide to see it, but I now choose to always view change as good. Even if the change causes bad for a while, I will always believe there is a reason for that bad to happen to us for a while. There are often great lessons to be learned from it.
+
+Change can be one of the most feared but gratifying experiences you will ever go through in life. However, change is often so scary that many of us will refuse to even remotely give it a second’s glance. Unless forced into change by some uncontrollable circumstance such as losing a job, grieving the loss of a loved one or something as simple as being turned down for a home loan, many of us will stay in a comfort zone way of living our lives, even if it causes depression, low self-esteem and many other negative emotions.
+
+Change is that thing that makes some of us experience increased anxiety and/or depression when our world turns in a way that we didn’t want or expected it to. It is the thing that causes others to develop alcohol and/or drug addiction issues because they simply can’t manage major life events that result in loss or rejection. On the other hand, change can be that one event that transforms your life to a point of personal satisfaction and happiness that you never knew existed and will probably never regret.
+
+At one point in my life about 10 years ago, I was so gripped by fear of leaving my extremely unhappy marriage and of using tough parenting for a child with drug and alcohol addiction that I pushed myself into an extreme depression and state of ongoing panic attacks. Yet at the time, the depression was worth staying in my comfort zone of a two-income household, a two-parent home and another adult to help me out with things that I have now learned that I can just pay someone else to do. I now realize that most of the reasons I was afraid of were just my own low self-esteem of thinking that I wasn’t capable or as strong as I truly am.
+
+Since I wasted way too many years of my life being afraid of change and I don’t want you to do the same, I want to offer five of my greatest tips on how to overcome your fear. I am sure that others can offer many more tips than what I am going to share with you but, as with all things in life, I feel that it is much more likely that you will make a change if you keep it simple and not overwhelming.
+
+Is there something that you want to change in your life, whether it’s something small like your 20-year old outdated hairstyle or something much more life-altering like changing careers or leaving an unhappy relationship?
+
+If you are human, then there is probably something that you would like to change about yourself or your life. Would you like a new hairstyle but just can’t bring yourself to try it? Are you very complacent and feeling burned out by your job but just don’t know how to make the change to a new company or career path? Do you dread going home every day to live with someone who just doesn’t fit with you anymore or who doesn’t treat you very good, but you feel a panic attack coming on just thinking of how to walk away?
+
+Do not worry because I now know that these are all very valid and normal fears that most of the time can be overcome with assistance, persistence and a plan. Fear of the unknown is not a pleasant feeling to have. It is very scary to think about what can happen if you do something different, but it is also even scarier to think about what your life will be if you never make the attempt to change.
+
+The number one thing that I did first before finally making some real changes in my life was to determine why I was afraid of each change. I started running and found that it was a great outlet for me to think through problems. If running isn’t your cup of tea or you are physically unable, then take long slow walks or start a yoga class or something else that gives you time to just think and silently talk to yourself. If you are unable to exercise and/or this works better for you, write each change down on paper, and then jot down reasons why you are afraid of each one.
+
+Are you afraid of the new haircut after twenty years of having the same one since high school because you think it may look ugly? Are you afraid of changing careers or jobs because you know that it will take a lot of time, effort and stress to go back to school, having to adapt to a new work culture or taking the risk that your next boss will be mean and difficult to work with? Are you afraid of leaving a bad relationship because you are afraid that you cannot fully support yourself on one income or that you may end up alone for the rest of your life?
+
+All of these are examples of good questions to start with for making change in your life. In my opinion, just simply understanding what is driving the fear of change is the first and most important step in progressing towards that change.
+
+After you have made your mental or written list of the changes you want to make and why you are afraid to make them, the next best thing is to brainstorm possible solutions for the reasons you are afraid. Sometimes all it takes is talking yourself through things a little more for you to realize that there are ways to conquer most any problem in life.
+
+The new haircut may make you look ugly but guess what…hair does grow back. Even though I am all about the variety of hairstyles and fashion trends, I have experienced some not so great haircuts. How did I handle it? Just grin and bear it for a couple of months but it will grow back, and it is not the end of the world. And honestly the good part is that you will then know not to get that haircut again as it isn’t the most flattering on yourself. Or you just feel brave enough to continue trying new hairstyles until you find one that sticks and makes you feel amazing enough to conquer the next change on your list.
+
+Changing jobs or going back to school, especially at 43 like I am doing right now, is very tiring and stressful. I will not lie to you about that. Maybe you think you don’t have the money or the time to go back to school. There are ways to get around this. You may have to work two jobs, take out student loans, and only get 5 hours of sleep at night but it is possible if you really want it. Your life will not be so great while you are working through the change, but I am almost one-hundred percent positive that you will emerge on the other side with more self-satisfaction, courage, and sense of accomplishment.
+
+Leaving a bad relationship is probably one of the most difficult things to do because a person often thinks that maybe they haven’t tried hard enough, or they need to give the other person a second, third and fourth chance to improve their behavior. If you are simply afraid of being alone, then, in my opinion, this is the strongest indicator that you do need to leave. What I discovered for myself was that my fear of being alone was really my insecurity of being afraid to take care of myself when ultimately, I really needed to do just that. For the first 9 months after leaving my ex-husband, I cried myself to sleep almost every night, but I still got up every morning and went to work with a smile on my face. Even though I had not been in love with him for years and was the one who finally ended the relationship, I still grieved over what I felt was 17 years of my life lost to unhappiness. However, now looking back 7 years ago, I have no regrets for leaving and view it all as life experience gained, not lost.
+
+So whatever change you would like to make in your life, there is most likely a good solution to accomplish it. If you seem to go around in circles in your mind and can’t come up with a good solution or answer to ease your fear enough to make the change, start developing a plan on how to execute. You may just find that, in doing so, the answer comes to you and it now doesn’t seem as bad any longer.
+
+Often, just creating a plan for how you will make the change, can go a long way in decreasing your fear and anxiety. One of my greatest fears of leaving my marriage was not being able to support myself financially. I devised a plan for refinancing my car loan, found an affordable apartment to rent and then just stepped out into the unknown, even though my income vs. expenses was in the red at that time. Seven years later, I am at a great financial point where I make quite a bit more than my expenses.
+
+Determine how you will go about it all. Make a step by step plan of each possible solution that you have already came up with. Decide when and how it all will happen. It isn’t necessary to figure it all out at the beginning. Just figure out how to get started and then the rest will fall into place. I can assure you of this because that is where my biggest fear was coming from…needing to have every little detail figured out. Once I realized that is completely impossible in life, I have been able to accomplish major things and most of my fear of the unknown has completely disappeared.
+
+Sometimes all we need is perspective on how to execute. Execution is the key to quite a few things in life and most people don’t have the courage or the ability to do that. Therefore, they stay in the same place forever.
+
+4. Find a friend/support person who can help encourage you along the way.
+
+When I was at my lowest point in my life, I got sent what I call an “angel” to help me emotionally stabilize and lift myself up enough to think clearly on what I needed to do. I was just in such a state of depression over what was uncontrollably going on in my life that I just couldn’t execute change. I knew the change needed to happen and I desperately wanted to, but I didn’t know how. This “angel” or rather neighbor crossed paths with me at just the right time when I needed it.
+
+While you may not be lucky enough to be sent an “angel” or maybe don’t have any close friends as I didn’t at that time being so caught up in the bad of my life, there are support groups for all types of life problems. Sometimes we just need someone else to help us think clearly or motivate us through whatever change we need to make. There is nothing wrong with that and I would recommend it. I spend years focusing on my family that I used to not have very many close friends that I could lean on for advice. If I had had those at that time, maybe my life would have been a little easier to cope with and less anxiety-inducing to make the changes that needed to be made.
+
+Adapting to change is truly a life-long learning process but it can and will happen at some point in your life. I am not saying that change is easy as it is not. Change will most likely be bad at first and there is no way to determine how long that will last until it transforms into something way better than where you were at when you first started making the change.
+
+During your time of change, you will most likely experience discouragement, stress, anxiety and many other negative emotions, so please continue to remind yourself of why you make the change in the first place. Think back to your list of reasons for being afraid and then the solutions that are going to allow the change to be ok and work out in the end.
+
+Those who can deal with change by allowing it to transform their life in a positive way will be the beautiful winners in life. Those people will show and prove that they are confident and tough enough to handle all problems coming their way.
+
+Those of us who can adapt to life changing events and still come out on the positive side of things truly have an advantage over most people. Change comes in waves throughout life, so it is something that we will all be better off knowing how to easily accept and go with the flow of it.
+
+Change is good. Change is necessary. Even though I have already made many positive changes in my life, I never stop striving. My newest change this year is to get myself back into amazing shape by advancing beyond the 5K status and crossing the finish line of a half-marathon. What would you like to change today? It isn’t an easy road, but I promise you that it is an enriching one for sure.
+
+Originally published at hellobeautifullife.org on January 2, 2019.",,true
+@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53,"Goodbye, Object Oriented Programming","I’ve been programming in Object Oriented languages for decades. The first OO language I used was C++ and then Smalltalk and finally .NET and Java.
+
+I was gung-ho to leverage the benefits of Inheritance, Encapsulation, and Polymorphism. The Three Pillars of the Paradigm.
+
+I was eager to gain the promise of Reuse and leverage the wisdom gained by those who came before me in this new and exciting landscape.
+
+I couldn’t contain my excitement at the thought of mapping my real-world objects into their Classes and expected the whole world to fall neatly into place.
+
+I couldn’t have been more wrong.
+
+At first glance, Inheritance appears to be the biggest benefit of the Object Oriented Paradigm. All the simplistic examples of shape hierarchies that are paraded out as examples to the newly indoctrinated seem to make logical sense.
+
+And Reuse is the word of the day. No… make that the year and perhaps evermore.
+
+I swallowed this whole and rushed out into the world with my newfound insight.
+
+With religion in my heart and problems to solve, I started building Class Hierarchies and writing code. And all was right with the world.
+
+I’ll never forget that day when I was ready to cash in on the promise of Reuse by inheriting from an existing class. This was the moment I had been waiting for.
+
+A new project came along and I thought back to that Class that I was so fond of in my last project.
+
+No problem. Reuse to the rescue. All I gotta do is simply grab that Class from the other project and use it.
+
+Well… actually… not just that Class. We’re gonna need the parent Class. But… But that’s it.
+
+Ugh… Wait… Looks like we gonna also need the parent’s parent too... And then… We’re going to need ALL of the parents. Okay… Okay… I handle this. No problem.
+
+And great. Now it won’t compile. Why?? Oh, I see… This object contains this other object. So I’m gonna need that too. No problem.
+
+Wait… I don’t just need that object. I need the object’s parent and its parent’s parent and so on and so on with every contained object and ALL the parents of what those contain along with their parent’s, parent’s, parent’s…
+
+Ugh.
+
+There’s a great quote by Joe Armstrong, the creator of Erlang:
+
+I can tame this problem by not creating hierarchies that are too deep. But if Inheritance is the key to Reuse, then any limits I place on that mechanism will surely limit the benefits of Reuse. Right?
+
+Right.
+
+So what’s a poor Object Oriented Programmer, who’s had a healthy helping of the Kool-aid, to do?
+
+Contain and Delegate. More on this later.
+
+Sooner or later, the following problem will rear its ugly and, depending on the language, unsolvable head.
+
+Most OO languages do not support this, even though this seems to make logical sense. What’s so difficult about supporting this in OO languages?
+
+Well, imagine the following pseudocode:
+
+Notice that both the Scanner class and the Printer class implement a function called start.
+
+So which start function does the Copier class inherit? The Scanner one? The Printer one? It can’t be both.
+
+The solution is simple. Don’t do that.
+
+Yes that’s right. Most OO languages don’t let you do this.
+
+But, but… what if I have to model this? I want my Reuse!
+
+Then you must Contain and Delegate.
+
+Notice here that the Copier class now contains an instance of a Printer and of a Scanner. It delegates the start function to the Printer class’s implementation. It could just as easily delegated to the Scanner.
+
+This problem is yet another crack in the Inheritance pillar.
+
+So I’m making my hierarchies shallow and keeping them from being cyclical. No diamonds for me.
+
+And all was right with the world. That is until…
+
+One day, my code works and the next day it stops working. Here’s the kicker. I didn’t change my code.
+
+Well, maybe it’s a bug… But wait… Something did change…
+
+But it wasn’t in my code. Turns out the change was in the class that I inherited from.
+
+How could a change in the Base class break my code??
+
+This is how…
+
+Imagine the following Base class (It’s written in Java, but it should be easy to understand if you don’t know Java):
+
+IMPORTANT: Notice the commented line of code. This line is going to be changed later which will break things.
+
+This class has 2 functions on its interface, add() and addAll(). The add() function will add a single element and addAll() will add multiple elements by calling the add function.
+
+And here’s the Derived class:
+
+The ArrayCount class is a specialization of the general Array class. The only behavioral difference is that the ArrayCount keeps a count of the number of elements.
+
+Let’s look at both of these classes in detail.
+
+The Array add() adds an element to a local ArrayList.The Array addAll() calls the local ArrayList add for each element.
+
+The ArrayCount add() calls its parent’s add() and then increments the count.The ArrayCount addAll() calls its parent’s addAll() and then increments the count by the number of elements.
+
+And all works fine.
+
+Now for the breaking change. The commented line of code in the Base class is changed to the following:
+
+As far as the owner of the Base class is concerned, it still functions as advertised. And all of the automated tests still pass.
+
+But the owner is oblivious to the Derived class. And the owner of Derived class is in for a rude awakening.
+
+Now ArrayCount addAll() calls its parent’s addAll() which internally calls the add() which has been OVERRIDEN by the Derived class.
+
+This causes the count to be incremented each time the Derived class’s add() is called and then it’s incremented AGAIN by the number of elements that were added in the Derived class’s addAll().
+
+IT’S COUNTED TWICE.
+
+If this can happen, and it does, the author of the Derived class must KNOW how the Base class has been implemented. And they must be informed about every change in the Base class since it could break their Derived class in unpredictable ways.
+
+Ugh! This huge crack is forever threatening the stability of precious Inheritance pillar.
+
+Once again Contain and Delegate to the rescue.
+
+By using Contain and Delegate, we go from White Box programming to Black Box programming. With White Box programming, we have to look at the implementation of the base class.
+
+With Black Box programming, we can be completely ignorant of the implementation since we cannot inject code into the Base class by overriding one of its functions. We only have to concern ourselves with the Interface.
+
+This trend is disturbing…
+
+Inheritance was supposed to be a huge win for Reuse.
+
+Object Oriented languages don’t make Contain and Delegate easy to do. They were designed to make Inheritance easy.
+
+If you’re like me, you’re starting to wonder about this Inheritance thing. But more important, this should shake your confidence in the power of Classification via Hierarchies.
+
+Every time I start at a new company, I struggle with the problem when I’m creating a place to put my Company Documents, e.g. the Employee Handbook.
+
+Do I create a folder called Documents and then create a folder called Company in that?
+
+Or do I create a folder called Company and then create a folder called Documents in that?
+
+Both work. But which is right? Which is best?
+
+The idea of Categorical Hierarchies was that there were Base Classes (parents) that were more general and that Derived Classes (children) were more specialized versions of those classes. And even more specialized as we make our way down the inheritance chain. (See the Shape Hierarchy above)
+
+But if a parent and child could arbitrarily switch places, then clearly something is wrong with this model.
+
+What’s wrong is…
+
+Categorical Hierarchies don’t work.
+
+So what are hierarchies good for?
+
+Containment.
+
+If you look at the real world, you’ll see Containment (or Exclusive Ownership) Hierarchies everywhere.
+
+What you won’t find is Categorical Hierarchies. Let that sink in for a moment. The Object Oriented Paradigm was predicated upon the real world, one filled with Objects. But then it uses a broken model, viz. Categorical Hierarchies, where there is no real-world analogy.
+
+But the real world is filled with Containment Hierarchies. A great example of a Containment Hierarchy is your socks. They are in a sock drawer which is contained in one drawer in your dresser which is contained in your bedroom which is contained in your house, etc.
+
+Directories on your hard drive are another example of a Containment Hierarchy. They contains files.
+
+So how do we categorize then?
+
+Well, if you think of the Company Documents, it pretty much doesn’t matter where I put them. I can put them in a folder of Documents or a folder called Stuff.
+
+The way I categorize it is with tags. I tag the file with the following tags:
+
+Tags have no order or hierarchy. (This solves the Diamond Problem too.)
+
+Tags are analogous to interfaces since you can have multiple types associated with the document.
+
+But with so many cracks, it looks like the Inheritance pillar has fallen.
+
+Goodbye, Inheritance.
+
+At first glance, Encapsulation appears to be second biggest benefit of Object Oriented Programming.
+
+Object state variables are protected from outside access, i.e. they’re Encapsulated in the Object.
+
+No longer will we have to worry about global variables that are being accessed by who-knows-who.
+
+Encapsulation is a Safe for your variables.
+
+This Encapsulation thing is INCREDIBLE!!
+
+Long live Encapsulation…
+
+That is until…
+
+For efficiency sake, Objects are passed to functions NOT by their value but by reference.
+
+What that means is that functions will not pass the Object, but instead pass a reference or pointer to the Object.
+
+If an Object is passed by reference to an Object Constructor, the constructor can put that Object reference in a private variable which is protected by Encapsulation.
+
+But the passed Object is NOT safe!
+
+Why not? Because some other piece of code has a pointer to the Object, viz. the code that called the Constructor. It MUST have a reference to the Object otherwise it couldn’t pass it to the Constructor?
+
+The Constructor will have to Clone the passed in Object. And not a shallow clone but a deep clone, i.e. every object that is contained in the passed in Object and every object in those objects and so on and so on.
+
+So much for efficiency.
+
+And here’s the kicker. Not all objects can be Cloned. Some have Operating System resources associated with them making cloning useless at best or at worst impossible.
+
+And EVERY single mainstream OO language has this problem.
+
+Goodbye, Encapsulation.
+
+Polymorphism was the redheaded stepchild of the Object Oriented Trinity.
+
+It’s sort of the Larry Fine of the group.
+
+Everywhere they went he was there, but he was just a supporting character.
+
+It’s not that Polymorphism isn’t great, it’s just that you don’t need an Object Oriented language to get this.
+
+Interfaces will give you this. And without all of the baggage of OO.
+
+And with Interfaces, there isn’t a limit to how many different behaviors you can mix in.
+
+So without much ado, we say goodbye to OO Polymorphism and hello to interface-based Polymorphism.
+
+Well, OO sure promised a lot in the early days. And these promises are still being made to naive programmers sitting in classrooms, reading blogs and taking online courses.
+
+It’s taken me years to realize how OO lied to me. I too was wide-eyed and inexperienced and trusting.
+
+And I got burned.
+
+Good-bye, Object Oriented Programming.
+
+Hello, Functional Programming. It’s been so nice to work with you over the past few years.
+
+Just so you know, I’m NOT taking any of your promises at face value. I’m going to have to see it to believe it.
+
+Once burned, twice shy and all.
+
+You understand.
+
+If you liked this, click the💚 below so other people will see this here on Medium.
+
+If you want to join a community of web developers learning and helping each other to develop web apps using Functional Programming in Elm please check out my Facebook Group, Learn Elm Programming https://www.facebook.com/groups/learnelm/
+
+My Twitter: @cscalfani",,false

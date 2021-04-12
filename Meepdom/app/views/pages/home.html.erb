@@ -1,0 +1,58 @@
+<section class="banner">
+  <div class="container">
+    <div class="banner__header center-content">
+      <h1 class="banner__heading">Welcome to the meepdom!</h1>
+      <p class="banner__slogan">BUY and SELL used board games</p>
+      <div class="banner__search">
+
+        <%= form_tag games_path, method: :get do %>
+        <%= text_field_tag :query,
+        params[:query],
+        class: "input input-landing",
+          placeholder: "Find a board game"
+          %>
+        <%= submit_tag 'Search', class: "button is-small" %>
+        <% end %>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="featured-games margin-top-bottom">
+  <div class="container">
+    <div class="header">
+      <h2 class="title">
+        Featured Games
+      </h2>
+    </div>
+    <div class="row">
+      <% @games.each do |game| %>
+      <div class="col-md-4 col-sm-6 col-xs-12 center-content">
+        <div class="card">
+          <img src=<%= game.image_url %> class="card-img" alt="Board game" />
+
+          <%= link_to game_path(game), class: "card-body center-content" do %>
+          <h4><%= game.name %></h4>
+          <h5>Category:</h5>
+          <p><%= game.category %></p>
+          <h5>Play time:</h5>
+          <p><%= game.playingtime %> minutes</p>
+          <% end %>
+
+
+          <div class="card-price">
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+
+  </div>
+  <div class="call-to-action">
+    <%= button_to "See all", games_path, method: "get", class: "button" %>
+  </div>
+
+
+</section>

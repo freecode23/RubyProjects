@@ -1,0 +1,36 @@
+to get into git
+ - git innit
+
+to see hidden files in git
+- ls -a
+
+To see if something has been changed
+- git  or gst
+
+means files has has been created but not yet committed
+- Untracked files:
+
+Here is the file i want you to watch
+- git add index.html
+
+Please commit this file and here is the message
+- git commit -m
+
+Check the differences
+- git diff
+
+Show commit history with
+- git log // more complicated
+- git lg  //easier to read
+// will also show the network of branch
+
+Yellow X shows file that hasn't been saved.
+
+To set up template
+ - html:5 and ctrl + e
+
+To push to github
+- git push origin master
+
+To connect github to your git
+- hub open

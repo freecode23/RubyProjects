@@ -1,0 +1,258 @@
+.card {
+  position: relative;
+  outline: 2px solid black;
+  width: 100%;
+  background-size: cover;
+  box-shadow: $box-shadow;
+  margin: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  & .card-img {
+    width: 100%;
+  }
+  &:hover {
+    outline: 2px solid $secondary;
+  }
+}
+
+.card-body {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(115deg, $secondary 0%, $primary 50%);
+  height: 100%;
+  width: 100%;
+  padding: 1px;
+  transform: translateY(100%);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  & p {
+    color: white;
+    font-size: 15px;
+    font-family: $body-font;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  & h5 {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  & h4 {
+    color: black;
+    font-size: 30px;
+  }
+}
+
+// .card-price {
+//   position: absolute;
+//   background: $primary;
+//   color: white;
+//   text-align: center;
+//   top: 0;
+//   right: 0;
+//   width: 100%;
+// }
+
+.user-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($primary, 0);
+    transition: opacity 0.3s ease-in;
+  }
+  &:hover .user-card__link {
+    background: rgba($primary, 0.1);
+  }
+  &__photo {
+    width: 120px;
+  }
+  &__info {
+    padding: 0 5px;
+  }
+  &__price {
+    font-family: $title-font;
+    font-size: 30px;
+  }
+  & > *:not(:last-child) {
+    margin-right: 10px;
+  }
+  & .button {
+    max-width: 100px;
+    z-index: 100;
+  }
+}
+
+.game-info-title {
+  background: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $title-font;
+  width: 220px;
+  height: 60px;
+  color: white;
+  border-top-right-radius: 5px;
+  & h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Nunito';
+  }
+}
+
+.game-info-card {
+  display: flex;
+  width: 100%;
+  background: white;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: $box-shadow;
+  border-top-right-radius: 5px;
+  & .avatar {
+    margin-bottom: 4px;
+    box-shadow: $box-shadow;
+  }
+  &__description {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 40px;
+    overflow: hidden;
+    & > * {
+      flex: 0 0 50%;
+    }
+  }
+  & h2 {
+    font-family: $title-font;
+    font-size: 24px;
+  }
+  & .game-price {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border-radius: 50%;
+    background: $primary;
+    min-width: 70px;
+    min-height: 70px;
+    color: #fff;
+    font-family: $title-font;
+    box-shadow: 3px 4px 0 $black;
+    font-size: 25px;
+    & p {
+      margin: 0;
+    }
+  }
+  & .game-condition {
+    background: $primary;
+    max-width: 70%;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    & p {
+      margin: 0;
+    }
+  }
+}
+
+.game-designer {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  &:hover a,
+  &:hover p {
+    visibility: visible;
+  }
+  & .avatar {
+    box-shadow: none;
+    border: 4px solid #fff;
+  }
+  & a,
+  p {
+    font-weight: bold;
+    font-size: 20px;
+    background: $primary;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #fff;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+  }
+}
+
+
+.card:hover .card-body {
+  transform: translateY(0);
+  opacity: 0.8;
+}
+
+.game-card {
+  overflow: hidden;
+  margin: 20px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba($primary, 0.5);
+    width: 10px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+  &:hover.game-card::before {
+    transform: translateY(0);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba($primary, 0.5);
+    width: 10px;
+    height: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+  &:hover.game-card::after {
+    transform: translateY(0);
+  }
+  position: relative;
+  &__photo {
+    width: 100%;
+  }
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__seller-auth {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    z-index: 100;
+  }
+  &__body {
+    padding: 0 20px;
+  }
+}

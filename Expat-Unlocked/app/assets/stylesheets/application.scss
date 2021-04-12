@@ -1,0 +1,19 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap-datepicker3";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "flatpickr/dist/flatpickr.min";
+@import "select2-bootstrap";
+
+
+// Your CSS partials
+@import "layouts/index";
+@import "components/index";
+@import "pages/index";

@@ -1,0 +1,18 @@
+<div class ="container">
+  <h1 class="fas fa-utensils" > My list of restaurants</h1>
+  <%= button_to "add a new restaurant", new_restaurant_path, class: "btn btn-danger", method: "get"%>
+  <br>
+    <% @restaurants.each do |restaurant| %>
+      <h2><%= link_to restaurant.name, restaurant_path(restaurant)%></h2>
+      <p><%= restaurant.address %></p>
+      <p><%= restaurant.phone_number %></p>
+      <p><%= restaurant.category %></p>
+      <ul><strong>What people say</strong></ul>
+      <p><% restaurant.reviews.each do |review| %></p>
+        <li><%= review.content %></li>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+</div>
+<%= console %>

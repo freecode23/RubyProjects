@@ -1,0 +1,122 @@
+@import 'sweetalert2/src/sweetalert2.scss';
+
+// COLORS
+$primary: #21af89;
+$secondary: #6d83ff;
+
+$white: #eeeeee;
+$black: #282929;
+
+// FONTS
+$default-font-size: 18px;
+$heading-font-size: 48px;
+$title-font: 'Titan One', cursive;
+$body-font: 'Nunito', sans-serif;
+$box-shadow: 0 2px 10px rgb(201, 201, 201);
+// AVATAR
+
+body {
+  font-family: $body-font;
+  font-size: $default-font-size;
+  background: $white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.game-info-card a {
+  padding-top: 10px;
+}
+
+.game-info-card a:hover {
+  color: white;
+}
+
+.title {
+  font-family: $title-font;
+  padding-bottom: 10px;
+}
+
+.margin-top-bottom {
+  margin: 80px 0;
+}
+
+.margin-top-bottom-index {
+  margin: 50px 0;
+}
+
+.show-image {
+  width: 100%;
+}
+
+.header {
+  border-bottom: solid 8px $secondary;
+  max-width: 345px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-paddingless {
+  padding: 0 !important;
+}
+
+.is-marginless {
+  margin: 0 !important;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  .column {
+    align-self: flex-start;
+    flex: 0 0 25%;
+    padding: 0 10px;
+
+    @media only screen and (max-width: 800px) {
+      flex: 0 0 50%;
+    }
+    @media only screen and (max-width: 500px) {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+.flex-full {
+  flex: 0 0 100% !important;
+}
+.flex-half {
+  flex: 0 0 50% !important;
+}
+
+.user-games-show {;
+  padding: 20px 0;
+}
+
+.swal2-actions {
+  font-size: 15px;
+}
+
+.swal2-content {
+  font-size: 22px !important;
+}
+
+.swal2-progress-step {
+  font-size: 18px;
+}

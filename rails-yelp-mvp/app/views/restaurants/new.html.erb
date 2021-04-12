@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Add a new Restaurant</h1>
+  <%= simple_form_for(@restaurant) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :phone_number %>
+    <%= f.input :category, collection: Restaurant::CATEGORY %>
+    <%= f.submit "create", class: "btn btn-primary" %>
+  <% end %>
+</div>
+
+<!-- notes 2
+Before Submit
+<ActionController::Parameters {"controller"=>"restaurants", "action"=>"new"} permitted: false> -->
+
+<!-- After Submit is click a param will have:
+{"utf8"=>"✓",
+ "authenticity_token"=>"byFUX/RTzd949Yxy1t2M4Vq7qWJZEFtKTHldA9KPx/MyPIn1YtvUdSYxA8u6ykprhB3XnZDZO45HcfmPVi1qNg==",
+ "restaurant"=>{"name"=>"Katustaro", "address"=>"Ikenohata 4-16-8, parashion ", "phone_number"=>"7041033640", "category"=>"ryokan food"},
+ "commit"=>"create"} -->
+
+<%= console %>

@@ -1,0 +1,54 @@
+
+
+<%= render partial: "shared/breadcrumb", locals: { text: "See All Games",
+back_path: games_path } %>
+
+<div class="columns user-games-show">
+  <div class="column flex-half center-content">
+    <%= cl_image_tag @user.photo, class: "avatar-large" %>
+  </div>
+  <div class="column flex-half">
+    <h2>
+      <%= @user.username.capitalize %>'s Games List
+    </h2>
+    You are currently selling <%= @user.user_games.count %> 
+    <%= @user.user_games.count > 1 || @user.user_games.count == 0 ? "games" : "game" %> <% if current_user == @user %> 
+      <%= button_to "Sell Game", new_user_game_path, class: "button", id: "sell-button", data: { toggle: "sell-game" }, remote: true, method: :get %> 
+    <% end %>
+  </div>
+</div>
+
+<div class="sell-game-form hide">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h2> Add a new game <%= current_user.username %> </h2>
+        <%= simple_form_for(@user_game, remote: true) do |f| %>
+          <%= f.association :game %>
+          <%= f.input :sale_price %>
+          <%= f.input :description %>
+          <p><strong>Condition</strong></p>
+          <%= f.select(:condition, UserGame::CONDITIONS) %>
+          <%= f.input :photo %>
+          <%= f.input :photo_cache, as: :hidden %>
+          <%= f.submit "Add", class: "btn btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <% if @user.user_games == [] && current_user == @user %>
+    <h2>You have nothing up for sale</h2>
+  <% elsif @user.user_games == [] && current_user != @user %>
+    <h2><%= @user.username %> has nothing up for sale :(</h2>
+  <% end %>
+
+  <div class="columns margin-top-bottom user-games-list">
+ 
+    <% @user.user_games.each do |user_game| %>
+          <%= render "shared/index", user: @user, user_game: user_game %>
+    
+    <% end %>
+  </div>
+</div>

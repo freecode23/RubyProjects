@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP");
+
+/* Font & Colours*/
+
+h1 {
+  font-family: 'Helvetica', bold;
+  font-size: 30px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Helvetica', bold;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Helvetica', bold;
+  font-size: 20px;
+}
+p
+{
+  font-family: 'Helvetica', bold;
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Custom Design */
+
+
+.box1{
+  padding:50px 0px;
+  transform: rotate(30deg);
+  color: black;
+  text-align: right;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: #E8E6E6;
+  padding: 50px;
+  color: black;
+  font-size: 18px;
+  border: 3px;
+}

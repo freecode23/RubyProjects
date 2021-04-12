@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+
+      <h2 class="center-content">Take a photo or upload one</h2>
+       <%= simple_form_for(@user_document) do |f| %>
+        <%= f.input :photo, required: true, label: 'Bill upload/snap', required: false, input_html: { class: "upload-document hidden", onchange: "loader()" }, label_html: { class: 'upload-photo' }, label: '📷 Upload a Bill' %>
+        <%= f.input :photo_cache, as: :hidden %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<!--   <div class="col-sm-6 col-sm-offset-3" >
+    <video id = "video" ></video>
+    <a href="#" id="capture" class= "button is-big" >Take Photo</a>
+    <a href="#" id="submitOwn" class= "button is-big" >Photo is OK</a>
+    <canvas id = "canvas" ></canvas>
+    <img id = "photo" src="" alt=""> -->
+      <!-- <script>
+
+      const constraints = { audio: false, video: true };
+      const canvas = document.getElementById('canvas'),
+            context = canvas.getContext('2d'),
+            photo = document.getElementById('photo'),
+            photoForm = document.getElementById('new_user_document'),
+            photoInput = document.getElementById('user_document_photo');
+
+      navigator.mediaDevices.getUserMedia(constraints)
+      .then(function(mediaStream) {
+        var video = document.querySelector('video');
+            video.srcObject = mediaStream;
+        video.onloadedmetadata = function(e) {
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          video.play();
+        };
+      })
+      .catch(function(err) { console.log(err.name + ": " + err.message);
+      });
+
+      function takePhoto(){
+        context.drawImage(video, 0, 0);
+        photo.setAttribute('src', canvas.toDataURL('image/png'));
+      }
+
+      document.getElementById('capture').addEventListener('click', takePhoto);
+      document.getElementById('video').addEventListener('click', takePhoto);
+
+      document.getElementById('submitOwn').addEventListener('click', function(e){
+
+        const formData = new FormData(photoForm);
+        canvas.toBlob((blob) => {
+          formData.set("user_document[photo]", blob, 'image.png');
+          const request = new XMLHttpRequest();
+          request.open("POST", photoForm.action);
+          request.send(formData);
+          request.onload = (event) => {
+            console.log(event);
+            window.location = event.currentTarget.responseURL;
+          };
+        });
+      });
+
+      </script> -->
+  </div>
+</div>
+

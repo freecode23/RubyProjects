@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Documents#show</h1>
+      <h2><%= @document.jp_name%></h2>
+      <p><strong>Payment type: </strong><%= @document.payment_type %></p>
+
+      <p><strong>Company name: </strong><%= @document.company_name %></p>
+
+      <p><strong>Document description: </strong></p>
+      <p><%= @document.description %></p>
+    <br>
+    <%= button_to "Back to All documents", documents_path , method: "get"%>
+</div>

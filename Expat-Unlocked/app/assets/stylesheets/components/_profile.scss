@@ -1,0 +1,123 @@
+.card-profile {
+  overflow: hidden;
+  height: 200px;
+  background: $white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-profile img {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+}
+
+.card-profile h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-profile p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0.7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-border {
+  border: 1px solid;
+}
+
+.card-profile .card-profile-infos {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 760px) {
+  .card-profile-display-none {
+    // display: none;
+  }
+  // .card-profile{
+  //   width: 120px;
+  // }
+  .card-profile img {
+    width: 120px;
+  }
+}
+
+.due-date-background-pink {
+  background: $pink;
+}
+
+.due-date-background-blue {
+  background: $blue;
+}
+
+.edit-button {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  &__left {
+    flex: 25%;
+    min-height: 100vh;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 75%;
+    padding: 30px 20px;
+  }
+  &__bills {
+    min-width: 60%;
+  }
+  &__stats {
+    flex: 1;
+  }
+}
+
+#new_user_document.simple_form.new_user_document {
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    &__right {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      & .upcoming-card {
+        width: 98%;
+        &__heading h2 {
+          font-size: 26px;
+        }
+        &__content {
+          padding: 20px;
+        }
+      }
+    }
+
+    &__bills {
+      width: 98%;
+    }
+  }
+  .bills-list {
+    &__paid {
+      display: none;
+    }
+    &__item > * {
+      flex: 0 0 30%;
+    }
+  }
+}
